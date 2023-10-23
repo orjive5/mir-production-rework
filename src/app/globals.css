@@ -1,0 +1,76 @@
+@import url("https://fonts.cdnfonts.com/css/clash-display");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    --background: 0, 100%, 0%;
+    --foreground: 0, 100%, 100%;
+ 
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+ 
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+ 
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+ 
+    --secondary: 240, 3%, 15%;
+    --secondary-foreground: 210 40% 98%;
+ 
+    --muted: 240, 3%, 15%;
+    --muted-foreground: 0, 0%, 81%;
+ 
+    --accent: 240, 3%, 15%;
+    --accent-foreground: 210 40% 98%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+ 
+    --border: 240, 4%, 11%;
+    --input: 240, 3%, 15%;
+    --ring: 357, 100%, 66%;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .music-artists {
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    background-attachment: fixed;
+  }
+  .music-gradient {
+    background-color: #fff25e;
+    /* background-image: url("./assets/bg-gradient.jpg"); */
+    background-position: top;
+    background-image: url("/orange-gradient.jpg");
+    /* background-image: linear-gradient(180deg, #fff25e 0%, #ff2e00 80%); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contact-bg {
+    background-color: #fff25e;
+    background-image: url("/orange-gradient-flip.png");
+    /* background-position: 50% 50%; */
+    /* background-image: linear-gradient(180deg, #fff25e 0%, #ff2e00 80%); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}

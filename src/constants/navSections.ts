@@ -1,0 +1,1 @@
+export const navSections = ['Home', 'About', 'Projects', 'Contact'];
