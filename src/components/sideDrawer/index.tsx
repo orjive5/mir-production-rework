@@ -28,12 +28,13 @@ const SideDrawer = () => {
                         <SheetDescription>
                             {navSections.map(nav => (
                                 <Link
-                                    href='/'
+                                    key={nav.title}
+                                    href={nav.scrollTo}
                                     className="block select-none space-y-1 rounded-md leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                                 >
                                     <SheetTrigger className="w-full p-3">
                                         <p className="sm:text-start w-full text-sm font-medium leading-none">
-                                            {nav}
+                                            {nav.title}
                                         </p>
                                     </SheetTrigger>
                                 </Link>

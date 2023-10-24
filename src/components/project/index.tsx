@@ -21,17 +21,17 @@ const Project = ({
   return (
     <section className="flex items-start gap-5 md:gap-10 pb-10 border-b border-[hsla(0,0%,100%,.06)]">
         <div className="relative w-28 h-32 md:w-44 md:h-48 rounded">
-            <Image
-                src={src}
-                width="0"
-                height="0"
-                sizes="100vw"
-                className="rounded w-full h-full object-cover"
-                alt={alt}
-            />
+          <Image
+              src={src}
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="rounded w-full h-full object-cover"
+              alt={alt}
+          />
         </div>
         <div className="w-full flex flex-col md:gap-5 justify-between min-h-32 text-left">
-            <Link rel="noopener noreferrer" target='_blank' href={linkTo}>
+            <Link rel="noopener noreferrer" target={linkTo === '#contact' ? '_self' : '_blank'} href={linkTo}>
                 <h2 className="text-xl md:text-2xl cursor-pointer underline">
                     {title}
                 </h2>

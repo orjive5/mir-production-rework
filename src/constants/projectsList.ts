@@ -1,7 +1,7 @@
 export const projectsList = [
     {
       title: "Artists",
-      description: "Our ambition is to offer all artists professional and personal management service. We offer online casting for new promising artists of all genres.",
+      description: "Our ambition is to offer all artists a professional and personal management service. We provide online casting for promising artists of all genres.",
       year: 2010,
       src: '/scene.jpg',
       alt: 'National Electronic Registry "The musical talents of Serbia',
@@ -9,7 +9,7 @@ export const projectsList = [
     },
     {
       title: "WORLD OPEN Music Competition",
-      description: "The oldest of all online competitions!",
+      description: "The oldest of all online music competitions.",
       year: 2010,
       src: '/globe.jpg',
       alt: "WORLD OPEN Online Music Competition",
@@ -17,7 +17,7 @@ export const projectsList = [
     },
     {
       title: "EUROPE OPEN Music Competition",
-      description: "New format of an online competition.",
+      description: "New format of an online music competition.",
       year: 2021,
       src: '/europe.jpg',
       alt: "EUROPE OPEN Online Music Competition",
@@ -25,7 +25,7 @@ export const projectsList = [
     },
     {
       title: "Love Story - Wedding Agency",
-      description: "Our artists - screenwriters, decorators, florists, stylists, make-up artists, manicurists, photographers, videographers, music groups, presenters and other participants will be happy to help you create your perfect wedding!",
+      description: "Our team of artists, including screenwriters, decorators, florists, stylists, makeup artists, manicurists, photographers, videographers, music groups, presenters, and other participants, will be happy to help you create your perfect wedding!",
       year: 2016,
       src: '/wedding.jpg',
       alt: "Love Story - Wedding Agency",
@@ -36,7 +36,7 @@ export const projectsList = [
       description: "Musical education in the historic center of Russian culture in Serbia - Russian Center for Science and Culture in Belgrade.",
       year: 2011,
       src: '/rachmaninoff.jpg',
-      alt: "Russian School of Music S.V. Rachmaninov",
+      alt: "Russian School of Music S.V. Rachmaninoff",
       linkTo: "https://www.facebook.com/groups/179402178788400",
     },
     {
@@ -49,7 +49,7 @@ export const projectsList = [
     },
     {
       title: 'Russian Choir',
-      description: 'A choir that promotes Russian culture and national music with its numerous performances.',
+      description: 'A choir that promotes Russian culture and national music through its numerous performances.',
       year: 2014,
       src: '/russianchoir.jpg',
       alt: "Russian Choir",

@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html style={{scrollBehavior:'smooth'}} lang="en">
       <body className='font-clash'>{children}</body>
     </html>
   )

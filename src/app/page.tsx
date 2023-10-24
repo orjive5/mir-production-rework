@@ -8,7 +8,8 @@ import Projects from "@/components/projects";
 export default function Home() {
 
   return (
-    <main className="bg-black text-white min-h-screen w-full">
+    <main className="relative bg-black text-white min-h-screen relative w-full">
+        <div id="home" className="absolute top-0"></div>
         <Navbar />
         <Introduction />
         <About />
