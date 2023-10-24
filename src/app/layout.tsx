@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'MIR Production',
-  description: 'MIR Production portfolio website',
+  description: 'MIR Production specializes in producing music artists from around the world. We organize concerts and tours for musicians of all genres.',
 }
 
 export default function RootLayout({
