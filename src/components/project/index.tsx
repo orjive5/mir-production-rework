@@ -19,7 +19,7 @@ const Project = ({
   linkTo,
 }: ProjectProps) => {
   return (
-    <section className="flex items-start gap-5 md:gap-10 pb-10 border-b border-[hsla(0,0%,100%,.06)]">
+    <section className="break-words flex items-start gap-5 md:gap-10 pb-10 border-b border-[hsla(0,0%,100%,.06)]">
         <div className="relative w-28 h-32 md:w-44 md:h-48 rounded">
           <Image
               src={src}
@@ -30,18 +30,18 @@ const Project = ({
               alt={alt}
           />
         </div>
-        <div className="w-full flex flex-col md:gap-5 justify-between min-h-32 text-left">
-            <Link rel="noopener noreferrer" target={linkTo === '#contact' ? '_self' : '_blank'} href={linkTo}>
-                <h2 className="text-xl md:text-2xl cursor-pointer underline">
-                    {title}
-                </h2>
-            </Link>
-            <p className="text-muted-foreground">
-                {description}
-            </p>
-            <p className="text-muted-foreground">
-                {year}
-            </p>
+        <div className="w-full flex flex-col gap-1 md:gap-5 justify-between min-h-32">
+          <Link rel="noopener noreferrer" target={linkTo === '#contact' ? '_self' : '_blank'} href={linkTo}>
+              <h2 className="text-center md:text-left text-xl md:text-2xl cursor-pointer underline">
+                  {title}
+              </h2>
+          </Link>
+          <p className="max-w-full text-base md:text-2xl text-center md:text-left text-muted-foreground overflow-hidden">
+              {description}
+          </p>
+          <p className="text-base md:text-2xl text-center md:text-left text-muted-foreground">
+              {year}
+          </p>
         </div>
     </section>
   );

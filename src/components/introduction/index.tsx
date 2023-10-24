@@ -6,9 +6,9 @@ const Introduction = () => {
 
   return (
     <section
-      className="flex flex-col justify-center items-center pt-40 sm:pt-56 md:pb-20 px-10 md:px-20 lg:px-40 2xl:px-80"
+      className="flex flex-col justify-center items-center pt-40 sm:pt-56 md:pb-20 px-5 md:px-10 lg:px-40 2xl:px-80"
     >
-      <div id="introduction" className="absolute top-[-120px]"></div>
+      <div id="introduction" className="absolute top-[-100px]"></div>
       <div className="bg-border py-2 px-4 rounded-3xl">
         <h2 className="opacity-80 font-semibold tracking-widest text-xs sm:text-base">
           SINCE 2010
